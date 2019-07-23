@@ -7,7 +7,7 @@ function Navbar() {
         <div className="container">
           <div className="navbar-header">
             <div className="navbar-brand text-white text-lg brand-text" to="/">
-              Particeep | Online financial Service
+              Online Technical Test
             </div>
           </div>
           <ul className="navbar-nav ml-auto text-light d-inline-block">
