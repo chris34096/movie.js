@@ -24,7 +24,8 @@ export class SearchForm extends Component {
       <div className="jumbotron jumbotron-fluid mt-5 text-center">
         <div className="container">
           <h1 className="display-4 mb-3">
-            <i className="fa fa-search" /> Search for a movie ,TV series ..
+            <i className="fa fa-search" /> I'm sure you are bored, search for a
+            movie ...
           </h1>
           <form id="searchForm" onSubmit={this.onSubmit}>
             <input

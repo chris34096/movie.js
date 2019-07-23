@@ -92,7 +92,5 @@ const movies = [
 ];
 
 export const movies$ = new Promise((resolve, reject) =>
-  setTimeout(resolve, 100, movies)
+  setTimeout(resolve, 1000, movies)
 );
-
-export default movies;

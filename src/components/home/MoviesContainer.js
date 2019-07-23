@@ -10,7 +10,7 @@ export class MoviesContainer extends Component {
     let content = "";
 
     content =
-      movies.Response === "True"
+      movies.Response === "False"
         ? movies.Search.map((movie, index) => (
             <MovieCard key={index} movie={movie} />
           ))
